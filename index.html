@@ -1,1 +1,144 @@
-Hello world!
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style/header.css">
+    <link rel="stylesheet" type="text/css" href="style/matrix.css">
+    <link rel="stylesheet" type="text/css" href="style/body.css">
+    <link rel="stylesheet" type="text/css" href="style/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="js/menuMobile.js"></script>
+    <!-- <script src="matrix.js" type="application/javascript"></script> -->
+</head>
+
+<body>
+    <div class="overlay_menu_mobile" onclick="closeMenuMobile()"></div>
+    <header class="header">
+        <div class="header_logo">
+            <a href="index.html"><img id="img" src="style/photocv6.jpg"></a>
+        </div>
+        <nav class="header_nav">
+            <div class="header_nav_close" onclick="closeMenuMobile()">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </div>
+            <ul class="header_nav_menu">
+                <li class="header_nav_menu_link">
+                    <a href="index.html">Accueil</a>
+                </li>
+                <li class="header_nav_menu_link">
+                    <a href="#profil">Profil</a>
+                </li>
+                <li class="header_nav_menu_link">
+                    <a href="#competences">Compétences</a>
+                </li>
+                <li class="header_nav_menu_link">
+                    <a href="#portfolio">Portfolio</a>
+                </li>
+                <li class="header_nav_menu_link">
+                    <a href="Contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header_burger" onclick="openMenuMobile()">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+        </div>
+    </header>
+    <main class="body_main">
+        <strong><h1 id="matrix_title">Développeur web full-stack</h1></strong>
+    </main>
+    <div class="container_canvas">
+        <canvas id="matrix_canvas"></canvas>
+    </div>
+    <h2 id="profil">QUI SUIS-JE ?</h2>
+    <div class="body_presentation">
+        <p>Hello ! Je m’appelle David, développeur Web junior.
+            Auparavant, j’ai effectué plusieurs années en tant que carrossier peintre ce qui m’a permis d’acquérir de très bonnes compétences telles que l’organisation, ainsi que des qualités relationnelles importantes.
+            Après une inaptitude médicale j'ai effectué une reconversion professionnelle dans le Développement Web, domaine qui m’intéressait depuis de nombreuses années.
+            J’ai donc suivi la formation Développeur Web/Web mobile avec une option en cybersécurité au sein de l'Adrar. Je suis actuellement une formation pour devenir concepteur d'application et obtenir un bac+3.
+        </p>
+    </div>
+    <h2 id="now">Actuellement :</h2>
+        <div class="body_now">
+            <p>En formation concepteur d'application Java Angular.</p>
+        </div>
+        <!-- <hr> -->
+        <h2>Compétences :</h2>
+        <div id="stats" class="container_progress_bar">
+            <div class="progress_bar_back">
+                <h3>BACK-END :</h3>
+                <h4>Java :</h4><progress value="20" max="100">70 %</progress>
+                <h4>SQL :</h4><progress value="60" max="100">70 %</progress>
+                <h4>Php :</h4><progress value="60" max="100">70 %</progress>
+            </div>
+            <div class="progress_bar_front">
+                <h3>FRONT-END :</h3>
+                <h4>Html :</h4><progress value="70" max="100">70 %</progress>
+                <h4>Css :</h4><progress value="70" max="100">70 %</progress>
+                <h4>Javascript :</h4><progress value="50" max="100">70 %</progress>
+            </div>
+        </div>
+        <footer id="contact">
+            <a href="Contact.html"><h3>Contact</h3></a>
+        </footer>
+    <script src="js/matrix.js" type="application/javascript"></script>
+    <script src="js/progress.js" type="application/javascript"></script>
+</body>
+</html>
+    <!-- <img id="img2" width="100%" height="900em" src="style/stoochi.jpg">
+    <div id="background">
+        <h2 id="h2">QUI SUIS-JE ?</h2>
+    </div> -->
+    <!-- <h1>Développeur web full-stack</h1>
+    <img id="img2" width="100%" height="900em" src="style/stoochi.jpg">
+    <!-- <div id="background">
+        <h2 id="h2">QUI SUIS-JE ?</h2>
+    </div> -->
+    <!-- <hr>
+    <div id="profil">
+        <h2>QUI SUIS-JE ?</h2>
+        <p id="p1">Hello ! Je m’appelle David, développeur Web junior.
+            Auparavant, j’ai effectué plusieurs années en tant que carrossier peintre ce qui m’a permis d’acquérir de très bonnes compétences telles que l’organisation, ainsi que des qualités relationnelles importantes.
+            Après une inaptitude médicale j'ai effectué une reconversion professionnelle dans le Développement Web, domaine qui m’intéressait depuis de nombreuses années.
+            J’ai donc suivi la formation Développeur Web/Web mobile avec une option en cybersécurité au sein de l'Adrar. Je suis actuellement une formation pour devenir concepteur d'application et obtenir un bac+3.
+        </p>
+    </div>
+    <div id="now">
+        <h2>Actuellement :</h2>
+        <p>En formation concepteur d'application Java Angular.</p>
+    </div>
+    <hr>
+    <h2>Compétences :</h2>
+    <div id="stats">
+            <div id="tab1">
+                <h4>BACK-END :</h4>
+                    <h4>Java</h4><progress value="20" max="100">70 %</progress>
+                    <h4>SQL</h4><progress value="60" max="100">70 %</progress>
+                    <h4>Php</h4><progress value="80" max="100">70 %</progress>
+            </div>
+            <div id="tab2">
+                <h4>FRONT-END :</h4>
+                    <h4>Html</h4><progress value="90" max="100">70 %</progress>
+                    <h4>Css</h4><progress value="90" max="100">70 %</progress>
+                    <h4>Javascript</h4><progress value="60" max="100">70 %</progress>
+            </div>
+    </div>
+    <div id="competences">
+        <p>Elles sont en constantes améliorations car pour moi la joie de ce métier fait que l’on en apprend tous les jours, 
+            d’autant plus en étant impliqué, curieux et passionné.
+        </p>
+    </div> -->
+
+    <!-- <hr>
+<footer id="contact">
+    <a href="Contact.html"><h3>Contact</h3></a>
+</footer> -->

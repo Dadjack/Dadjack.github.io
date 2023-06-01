@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+</body>
+<header>
+    <nav id="nav">
+        <ul>
+            <a href="Accueil.html"><img id="img" width="100em" height="100em" src="style/photocv6.jpg"></a>
+            <a href="Accueil.html">
+                <li>Accueil</li>
+            </a>
+        </ul>
+    </nav>
+</header>
+<h1>Contact</h1>
+<fieldset>
+    <form method="post" action="contact.php">
+        <legend>Entrez votre messages et vos coordonnées</legend> <!-- Titre du fieldset -->
+        <label for="nom">Votre nom :</label>
+        <input type="text" name="nom" id="nom" />
+        <label for="prenom">Votre prénom :</label>
+        <input type="text" name="prenom" id="prenom" />
+        <label for="email">Votre e-mail :</label>
+        <input type="email" name="email" id="email" />
+        <textarea name="precisions" id="precisions" cols="40" rows="15"></textarea>
+        <input id="submit" type="submit">
+    </form>
+</fieldset>
+
+</html>
