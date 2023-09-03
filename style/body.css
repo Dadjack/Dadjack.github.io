@@ -7,14 +7,14 @@ body {
 .container_canvas h1{
     font-size: 3em;
     /* box-shadow:  0.1em 0.1em 1em rgba(105, 148, 108, 0.448); */
-    text-shadow: 0.1em 0em 0.2em #00FF00;
-    z-index: 5;
-    animation: matrix-effect 1000ms forwards;
-    animation-iteration-count: infinite;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    /* z-index: 5; */
+    /* animation: matrix-effect 1000ms forwards;
+    animation-iteration-count: infinite; */
     /* box-shadow:  0.1em 0.1em 1em green; */
 }
 
-@keyframes matrix-effect {
+/* @keyframes matrix-effect {
     0% {
         text-shadow:  0.1em 0.1em 1em #00FF00;
     }
@@ -24,10 +24,10 @@ body {
     /* Ajoutez les pourcentages et les lettres appropriés pour le reste du titre */
     /* Assurez-vous d'ajouter les lettres en minuscules et en majuscules */
 
-    100% {
+    /* 100% {
         text-shadow:  0.1em 0.1em 1em #00FF00;
-    }
-}
+    } 
+} */
 
 .container_canvas {
     display: flex;

@@ -11,14 +11,12 @@
 }
 
 #matrix_canvas{
-    /* background-color: #0E0E0E; */
     position: absolute;
-    top: 50%;
+    top: 36%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
     border-radius: 2em;
-    /* border: solid #0e0e0e3d; */
     border: solid #0e0e0e3d;
     border-width: 1.5em;
     box-shadow:  0.1em 0.1em 1em #00FF00;
